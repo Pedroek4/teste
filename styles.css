@@ -1,0 +1,274 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ff6600;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#h1d2{
+    text-align: center;
+    
+}
+
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ff6600;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+form button {
+    padding: 15px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #000000;
+}
+
+form button:active {
+    background-color: #ff6600;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .texto {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .texto h2 {
+    color:#ff6600
+  }
+  
+  .imagem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  ul.linguagens {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul.linguagens li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  ul.linguagens li img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  ul.frameworks {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul.frameworks li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  ul.frameworks li img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .botaosm {
+    margin-top: 20px;
+  }
+  
+  .botao-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-link:hover {
+    background-color:#ff6600;
+  }
+
+  .containercont{
+    display: flexbox; 
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
